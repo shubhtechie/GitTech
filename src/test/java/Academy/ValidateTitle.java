@@ -38,6 +38,7 @@ public void start() throws IOException
 		String t = driver.getTitle();
 		
 		System.out.println(t);
+		System.out.println(t);
 		
 		Assert.assertEquals(t, "aaaa");
 		
